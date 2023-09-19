@@ -20,7 +20,7 @@ npx hardhat run scripts/deploy.js --network mumbai
 Deploying contracts with the account: 0x34E8E400BE58476977EB37c18d3C005878AB6d0C
 MINGToken address: 0x076F0A8f984735b86a40FcD2615496F896542822
 
-npx hardhat verify --network mumbai 0x34E8E400BE58476977EB37c18d3C005878AB6d0C
-
+npx hardhat verify --network mumbai 0x076F0A8f984735b86a40FcD2615496F896542822
+https://mumbai.polygonscan.com/address/0x076F0A8f984735b86a40FcD2615496F896542822#code
 
 ```
