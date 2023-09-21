@@ -19,3 +19,13 @@ MINGToken address: 0x9d7DfA57593D41b332867DACCd2B573C98cBbc3A
 ## npx hardhat verify --network mumbai 0x9d7DfA57593D41b332867DACCd2B573C98cBbc3A
 https://mumbai.polygonscan.com/address/0x9d7DfA57593D41b332867DACCd2B573C98cBbc3A#code
 ```
+
+# Ming's deployment
+
+```
+npx hardhat run scripts/deploy_upgradeable_mingtoken.js --network mumbai
+
+MINGToken deployed to: 0xFF37Cf4AbF6e756e35c24E466b93fd6028866157
+```
+
+Contract Address with Proxy: https://mumbai.polygonscan.com/address/0xff37cf4abf6e756e35c24e466b93fd6028866157#readProxyContract
