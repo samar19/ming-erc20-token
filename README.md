@@ -29,3 +29,12 @@ MINGToken deployed to: 0xFF37Cf4AbF6e756e35c24E466b93fd6028866157
 ```
 
 Contract Address with Proxy: https://mumbai.polygonscan.com/address/0xff37cf4abf6e756e35c24e466b93fd6028866157#readProxyContract
+
+## upgrade for new code, V2 ...
+
+```
+npx hardhat run scripts/upgrade_upgradeable_mingtoken.js --network mumbai
+
+```
+
+PS. not tested yet
